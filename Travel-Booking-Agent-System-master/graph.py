@@ -21,8 +21,8 @@ def search_travel_info(query: str):
 
 
 # Initialize SerpAPI Wrapper
-search = SerpAPIWrapper(serpapi_api_key=os.getenv("SERPAPI_API_KEY", ""))
-search = SerpAPIWrapper(serpapi_api_key="") if "" else None
+search = SerpAPIWrapper(serpapi_api_key=os.getenv("SERPAPI_API_KEY"))
+search = SerpAPIWrapper(serpapi_api_key="SERPAPI_API_KEY") if "" else None
 def search_travel_info(query: str) -> str:
     """
     Searches Google for live travel details like flights, top attractions, 
