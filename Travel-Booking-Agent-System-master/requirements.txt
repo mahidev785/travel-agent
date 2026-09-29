@@ -1,0 +1,10 @@
+langgraph>=0.3
+langgraph-checkpoint-sqlite
+langchain
+langchain-google-genai
+langchain-mcp-adapters
+pydantic>=2
+python-dotenv
+requests
+scikit-learn
+streamlit
